@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="stylish.css">
+</head>
+<body>
+    <div class="first">
+        <ul>
+            <li><a href="#" class="Anchor_tag">SAVE MORE ON APP</a></li>
+            <li><a href="#">DARAZ AFFILIATE PROGRAM</a></li>
+            <li><a href="#">SELL ON DARAZ</a></li>
+            <li><a href="#">CUSTOMER CARE</a></li>
+            <li><a href="#">TRACK MY ORDER</a></li>
+            <li><a href="#" id="pText">LOGIN</a></li>
+            <li><a href="#">زبان تبدیل کریں</a></li>
+        </ul>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <img src="images/Logo.png" class="logo" alt="Darz Logo">
+            </li>
+            <li>
+                <input type="text" placeholder="Search in the Drawer">
+            </li>
+            <li>
+                <img src="images/Unilted.png" class="search" alt="search">
+            </li>
+            <li>
+                <img src="images/Cart.jpeg" class="cart" alt="cart">
+            </li>
+            <li>
+                <img src="images/Downloadnow.png" class="down" alt="Now">
+            </li>
+            <p id="ptext"></p>
+        </ul>
+    </nav>
+    <form action="../daraz/index copy.html">
+        <h1>Create Account</h1>
+        <input type="text" required id="txt" placeholder="Enter Your Name">
+        <input type="email" id="email" required placeholder="Enter Your Email">
+        <input type="password" id="password" required placeholder="Enter Your Password">
+        <input type="password" id="password" required placeholder="Confirm Your Password">
+        <input required type="checkbox"><p> Remember Your Password </p>
+        <div>
+
+            <p>Forget Your Password ?</p> <a href="../index.html">Login</a>
+        </div>
+        <input type="submit" value="Click" onclick="passvalue()"/>
+    </form>
+
+    <script>  
+        function passvalue() {
+      var firstname = document.getElementById("txt").value;
+      localStorage.setItem("textvalue", firstname);
+      return false;
+    }
+           </script>  
+</body>
+</html>

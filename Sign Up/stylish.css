@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+form{
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: -380px;
+    box-shadow: 0 0 10px rgb(173, 173, 173);
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 350px;
+    height: 480px;
+    margin-left: 37%;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+  }
+  
+form h1{
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    margin: -5 0 0 0;
+}
+form input{
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+}
+form input[type="checkbox"]{
+    margin-left: -250px;
+}
+form p{
+    margin-top: -30px;
+}
+form #button_value{
+    padding: 10px 120px;
+    background-color: #ccc;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+form div p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+form div a{
+    margin-bottom: 8px;
+    font-size: 12px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.first {
+    background-color: #ccc;
+    text-align: right;
+}
+
+.first ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.first ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+
+.first ul li .Anchor_tag {
+    color: #f85606;
+}
+
+.first ul li a:hover {
+    color: #f85606;
+    text-decoration: underline;
+}
+
+nav {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li img {
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+
+.logo {
+    width: 135px;
+}
+
+nav input {
+    background-color: #e7e8ec;
+    box-sizing: border-box;
+    padding: 15px 430px 15px 10px;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #212121;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 2px;
+    margin-bottom: 450px;
+}
+
+input::placeholder {
+    text-align: left;
+}
+
+nav ul li .search {
+    background-color: #f85606;
+    margin-left: -50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.cart {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.down {
+    width: 250px;
+    margin-left: 20px;
+}
